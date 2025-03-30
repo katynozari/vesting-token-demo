@@ -1,3 +1,12 @@
+# Foundry
+cache/
+out/
+lib/
+
+# Node
+node_modules/
+.env
+
 # Compiler files
 cache/
 out/
@@ -7,8 +16,18 @@ out/
 /broadcast/*/31337/
 /broadcast/**/dry-run/
 
+# Debug files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
 # Docs
 docs/
-
-# Dotenv file
-.env
